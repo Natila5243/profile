@@ -1,0 +1,277 @@
+body {
+            background-color: rgb(189, 250, 189);
+            margin: 0;
+            padding: 0;
+        }
+
+        .header1 {
+            background-color: rgb(93, 93, 150);
+            padding: 10px;
+        }
+
+        .h1 {
+            text-align: center;
+            color: white;
+        }
+        .h1:hover{
+            color: rgb(194, 191, 191);
+        }
+
+        #my-ul-1 {
+            list-style: none;
+            margin-right: 10px;
+            display: flex;
+            justify-content: flex-end;
+            gap: 30px;
+            font-size: 20px;
+            cursor: pointer;
+            color: white;
+        }
+
+        #my-ul-1 li:hover {
+            color: rgb(194, 191, 191);
+            text-decoration: underline;
+        }
+
+        .header2 {
+            text-align: center;
+            padding: 30px;
+            background-image: linear-gradient(to left, #ff0000, #ff9900, #ffff00, #00ff00, #0000ff);
+            font-size: 20px;
+        }
+
+        .visit-ancer {
+            text-decoration: none;
+            color: white;
+            background-image: linear-gradient(to right, pink, purple);
+            padding: 10px;
+            border-radius: 30px;
+            font-size: 20px;
+        }
+
+        .about {
+            margin-left: 30px;
+        }
+
+        .img-1 {
+            width: 300px;
+            height: 300px;
+            border-radius: 160px;
+            margin-left: 13%;
+            margin-top: 50px;
+        }
+
+        #skils {
+            margin-left: 15%;
+            margin: 0;
+
+        }
+
+        .about-content img {
+            width: 250px;
+            border-radius: 10px;
+            border: 2px solid #00f7ff;
+        }
+
+        .skills-container .skill {
+            margin-bottom: 20px;
+        }
+
+        .progress {
+            background: white;
+            height: 20px;
+            border-radius: 10px;
+        }
+
+        .bar {
+            border-radius: 0 10px 10px 0;
+            height: 100%;
+            background: linear-gradient(to right, #1e3a8a, gold);
+            width: 0;
+            transition: width 1s ease-in-out;
+        }
+
+        .js {
+            width: 60%;
+        }
+
+        .html {
+            width: 95%;
+        }
+
+        .css {
+            width: 90%;
+        }
+
+        .node {
+            width: 30%;
+        }
+
+
+        .animate_text {
+            margin: 30px;
+            font-size: 30px;
+            font-weight: bold;
+            border: 2px solid black;
+            padding: 5px;
+            border-radius: 5px;
+            background-color: aliceblue;
+            color: rgb(124, 120, 68);
+            font-style: italic;
+        }
+
+        .skils {
+            margin: 30px;
+        }
+
+        .skill-bar {
+            background-color: #00ff00;
+        }
+
+        .my_project {
+            margin-left: 20px;
+        }
+
+        .columns {
+            display: flex;
+            justify-content: space-around;
+            cursor: pointer;
+        }
+
+        .column1 {
+            background-color: pink;
+            padding: 20px;
+            border-radius: 5px;
+        }
+
+        .column1:hover {
+            background-color: rgb(255, 171, 185);
+            padding: 30px;
+
+        }
+
+        .column2 {
+            background-color: pink;
+            padding: 20px;
+            border-radius: 5px;
+
+        }
+
+        .column2:hover {
+            background-color: rgb(255, 171, 185);
+            padding: 30px;
+
+        }
+
+        .contact {
+            margin-left: 20px;
+        }
+
+        #my-ul-2 {
+            display: flex;
+            justify-content: space-around;
+            list-style: none;
+            font-size: 20px;
+            cursor: pointer;
+        }
+
+        .fa-facebook {
+            color: blue;
+            font-size: 1.2em;
+        }
+
+        .fa-tiktok {
+            color: white;
+            font-size: 1.2em;
+            text-shadow: 2px 2px 3px red;
+        }
+
+        .fa-instagram {
+            color: #FD059A;
+            font-size: 1.2em;
+        }
+
+        .fa-square-whatsapp {
+            color: green;
+            font-size: 1.2em;
+
+        }
+
+        #facebook-li {
+            background-image: linear-gradient(to left, #0000ff, #ff0000, #ff9900, #ffff00, #00ff00, pink);
+            padding: 10px;
+            border-radius: 25px;
+            color: black;
+            text-decoration: none;
+        }
+
+        #facebook-li:hover {
+            padding: 13px;
+            text-decoration: underline;
+            color: blueviolet;
+            background-image: none;
+            background-image: repeating-linear-gradient(45deg,
+                    #ff0000,
+                    #ff0000 10px,
+                    #ffff00 10px,
+                    #ffff00 20px);
+        }
+
+
+
+        #tiktok-li {
+            background-image: linear-gradient(to left, #0000ff, #ff0000, #ff9900, #ffff00, #00ff00, pink);
+            padding: 10px;
+            color: black;
+            border-radius: 25px;
+            text-decoration: none;
+        }
+
+        #tiktok-li:hover {
+            padding: 13px;
+            text-decoration: underline;
+            color: white;
+            background-image: none;
+            background-image: radial-gradient(circle, #ff0000, #ffff00, #00ff00, #0000ff);
+
+        }
+
+        #instagram-li {
+            background-image: linear-gradient(to left, #0000ff, #ff0000, #ff9900, #ffff00, #00ff00, pink);
+            padding: 10px;
+            border-radius: 25px;
+            color: black;
+            text-decoration: none;
+        }
+
+        #instagram-li:hover {
+            padding: 13px;
+            background-image: none;
+            text-decoration: underline;
+            color: white;
+            background-image: linear-gradient(45deg, #ff0000, #ff9900, #ffff00, #00ff00, pink);
+
+        }
+
+        #whatsapp-li  {
+            background-image: linear-gradient(to left, #0000ff, #ff0000, #ff9900, #ffff00, #00ff00, pink);
+            padding: 10px;
+            border-radius: 25px;
+            color: black;
+            text-decoration: none;
+        }
+
+        #whatsapp-li:hover {
+            padding: 13px;
+            background-image: none;
+            text-decoration: underline;
+            color: white;
+            background-image: linear-gradient(to right, rgba(255, 0, 0, 0.6), rgba(255, 255, 0, 0.6), rgba(0, 255, 0, 0.6));
+
+        }
+
+        .footer {
+            background-color: black;
+            padding: 30px;
+            color: white;
+        }
