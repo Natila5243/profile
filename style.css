@@ -1,7 +1,7 @@
 body {
             background-color: rgb(189, 250, 189);
             margin: 0;
-            padding: 0;
+            padding: 10px;
         }
 
         .header1 {
@@ -360,4 +360,5 @@ body {
             padding: 30px;
             color: white;
         }
+
 
