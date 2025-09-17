@@ -1,6 +1,6 @@
 body {
             background-color: rgb(189, 250, 189);
-            margin: 10px;
+            margin: 0;
             padding: 0;
         }
 
@@ -360,3 +360,4 @@ body {
             padding: 30px;
             color: white;
         }
+
